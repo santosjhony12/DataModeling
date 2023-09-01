@@ -29,3 +29,8 @@
 > São chamados de restrições<br>
 
 ![image](https://github.com/santosjhony12/ModelagemDados/assets/123211025/e300f448-3ac5-45cb-b9df-7d4f32ed4ede)
+
+
+<h4>Modelagem de Torneio</h4>
+
+![image](https://github.com/santosjhony12/ModelagemDados/assets/123211025/d7027c35-552c-40aa-9d52-912ab73257e4)
