@@ -34,3 +34,19 @@
 <h4>Modelagem de Torneio</h4>
 
 ![image](https://github.com/santosjhony12/ModelagemDados/assets/123211025/d7027c35-552c-40aa-9d52-912ab73257e4)
+
+
+
+<h4>Anotações: </h4>
+
+- Product Backlog and Users Stores - As users stores da segunda Sprint devem estar detalhadas - DoR DoD)
+- As primeiras não podem ser epicas - pois vamos trabalhar na primeira sprint
+
+> Como [tipo usuario] <br> desejo [alguma coisa] <br> para [finalidade]
+
+- Definition of Right (Pronto pra desenvolver) - Team
+- Definition of Done (Exe. Como rodar, oq instalar, codigo) - Quem é responsável? PO
+- Na 1º Sprint deve ter um projeto Java no git
+- A partir da segunda sprint, todos devem commitar
+- Modelo de dados inicial (2 ou 3 entidades) - 1º Sprint
+- NUNCA COMEÇAR COM LOGIN, SEMPRE PELO OQ É MAIS PRIORITÁRIO AO CLIENTES
