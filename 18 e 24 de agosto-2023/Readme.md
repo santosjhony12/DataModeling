@@ -50,3 +50,27 @@
 - A partir da segunda sprint, todos devem commitar
 - Modelo de dados inicial (2 ou 3 entidades) - 1º Sprint
 - NUNCA COMEÇAR COM LOGIN, SEMPRE PELO OQ É MAIS PRIORITÁRIO AO CLIENTES
+
+
+<h4>Aula 14/09</h4>
+
+- AutoRelacionamento: Entidade sendo relacionado consigo mesmo.
+
+![image](https://github.com/santosjhony12/ModelagemDados/assets/123211025/bf119cf2-fb22-46a8-8a7a-5bc5a7b45a0d)
+
+![image](https://github.com/santosjhony12/ModelagemDados/assets/123211025/4f08fad4-3327-4223-b766-347830ad800b)
+
+
+- Entidade Fraca: Critério Temporal - O traço mais grosso pega todos os identificadores
+
+![image](https://github.com/santosjhony12/ModelagemDados/assets/123211025/962b339a-8185-4248-add8-5631681d291f)
+
+
+- Generalização
+
+![image](https://github.com/santosjhony12/ModelagemDados/assets/123211025/3e2ee262-b328-42a7-b4ce-bd05722d7ce0)
+
+<h5>Não precisa de cardinalidade</h5>
+
+![image](https://github.com/santosjhony12/ModelagemDados/assets/123211025/ac50944c-cd54-4bc6-8a74-dfd3ae8cee5f)
+
