@@ -70,7 +70,46 @@
 
 ![image](https://github.com/santosjhony12/ModelagemDados/assets/123211025/3e2ee262-b328-42a7-b4ce-bd05722d7ce0)
 
+
+
+
 <h5>Não precisa de cardinalidade</h5>
 
 ![image](https://github.com/santosjhony12/ModelagemDados/assets/123211025/ac50944c-cd54-4bc6-8a74-dfd3ae8cee5f)
+
+
+## SQL - Structured Query Language 
+
+<h3>28/09/2023</h3>
+
+- Primeiros códigos no MySQL
+
+- SCHEMA e DATABASE no MySql são iguais, não causa problema em nada.
+
+<h2>DDL - Data Definition Language</h2>
+
+- CREATE
+
+```
+CREATE SCHEMA fatec;
+USE fatec;
+
+CREATE TABLE curso(
+  id BIGINT AUTO_INCREMENT,
+  nome VARCHAR(50) NOT NULL UNIQUE,
+  PRIMARY KEY(id)
+);
+
+CREATE TABLE aluno(
+  ra BIGINT AUTO_INCREMENT,
+  nome VARCHAR(255) NOT NULL,
+  data_matricula DATE,
+  id_curso BIGINT NOT NULL,
+  PRIMARY KEY (ra), -- usada pra compostas
+  FOREIGN KEY fk_aluno_curso (id_curso) REFERENCES curso (id)
+);
+
+```
+
+![image](https://github.com/santosjhony12/ModelagemDados/assets/123211025/9a2c2550-4425-4be9-8c10-2ebb515fde3f)
 
