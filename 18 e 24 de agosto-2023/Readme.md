@@ -88,8 +88,6 @@
 
 <h2>DDL - Data Definition Language</h2>
 
-- CREATE
-
 ```
 CREATE SCHEMA fatec;
 USE fatec;
@@ -110,6 +108,38 @@ CREATE TABLE aluno(
 );
 
 ```
+<h2>DML - Data Manipulation Language</h2>
 
-![image](https://github.com/santosjhony12/ModelagemDados/assets/123211025/9a2c2550-4425-4be9-8c10-2ebb515fde3f)
+```
+-- INSERIR ALGUMA COISA
+INSERT INTO tabela(campos) VALUES(valores);
 
+-- ATUALIZAR ALGUMA COISA
+UPDATE tabela
+SET campo = valor WHERE campo = valor;
+
+-- DELETAR ALGUMA COISA
+DELETE FROM tabela WHERE campo = valor;
+```
+
+<h2>DQL - Data Query Language</h2>
+
+```
+-- SELECIONAR A TABELA COMPLETA
+SELECT * FROM tabela;
+
+-- SELECIONAR ALGUM CAMPO
+SELECT campo FROM tabela;
+
+-- SELECIONAR COM CODIÇÃO
+SELECT * FROM tabela WHERE campo = valor;
+SELECT * FROM tabela LIKE campo = '%algumacoisa%';
+SELECT data FROM calendario WHERE data >= 2022-02-12;
+
+-- JUNTANDO TABELAS
+SELECT tabela1.campo, tabela2.campo FROM tabela1
+INNER JOIN tabela2;
+
+-- APELIDANDO OS CAMPOS
+SELECT campo AS apelido FROM tabela;
+```
