@@ -1,3 +1,58 @@
+# ARQUITETURA E MODELAGEM DE DADOS 
+<h5>Aula 11/08/2023</h5>
+
+<h3>Informações Importantes 🔍</h3>
+
+- Dado - menor particula de uma informação;
+- Informação - Dado contextualizado;
+- Banco de Dados: Contém dados relacionados a uma necessidade específica;
+- Nunca armazenar dados computados;
+
+<h3> SGBD - Sistema Gerenciador de Banco de Dados🧑‍💻</h3>
+
+  - Software responsável por gerenciar o banco de dados
+  - Ex.: MySQL, Postegre, Oracle
+  - Backup: Cópia de Segurança
+  - Restore: Carrega o backup para o DB;
+  - Organização de arquivos;
+  - Carregamento(loading): Carregamento de dados no DB != restore/backup;
+  - Todos os SGBD's possuem transações - é uma coleção de operações que desempenha uma função única dentro de uma aplicação dos sistemas de banco de dados - se uma coisa der errado, e algo der errado (por exemplo, uma falha de sistema) durante a transação, todas as operações serão revertidas para manter a consistência do banco de dados.;
+    - Atomicidade: Todas as operações de uma transação precisa ser executada, ou nada executa;
+    - Consistência: A consistencia do banco, não deve violar e nem atrapalhar o sistema/banco;
+    - Isolamento: Transações não devem interferir em outras transações;
+    - Durabilidade: Após a conclusão de uma transação bem-sucedida, os resultados devem ser duráveis, ou seja, permanecer no banco de dados mesmo em caso de falhas do sistema.
+
+# SGBD (SISTEMA GERENCIADOR DE BANCO DE DADOS)
+<h4>Aula 17/08/2023</h4>
+
+ <h3>MODELOS LÓGICOS DE DADOS: </h3>
+ 
+>  Hierárquico (árvore), rede(ponteiros), Relacionais(SQL), Orientados a Objetos, Objeto-relacionais;
+
+<h3>NÚMEROS DE USUÁRIOS SUPORTADOS: </h3>
+
+> Monousuários, Multiusuários;
+
+<h3>LOCALIZAÇÃO DE DADOS:</h3>
+  
+  > Centralizados - Dados mantidos em uma unica localidade física<br>
+  > Distribuidos - dados distribuidos em vários locais fisicos.
+
+<h3>COMPONENTES: </h3>
+
+>Usuários do SGBD -> Processador de consulta (dicionário de dados) -> Gerenciador de armazenamento -> Armazenamento de Disco
+
+<h3>PROCESSO DE DESENVOLVIMENTO: </h3>
+
+- Analisar (Modelagem Conceitual de Dados) - Diagrama de Relacionamento e Entidades;
+- Projetar (Design de Banco de Dados) - Definições de tabelas, índice, Exibição, Cluster;
+- Criar (Criação do Banco de Dados);
+- Banco de Dados Operacional;
+
+  <h3>Sistema de Banco de Dados: </h3>
+  > Hardware + software + DBA + 
+
+
 # MODELAGEM DE DADOS - INICIANDO ... 
 <h5>Data: 18/08/2023</h5>
 
